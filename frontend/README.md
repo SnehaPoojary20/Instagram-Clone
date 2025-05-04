@@ -1,12 +1,12 @@
-# React + Vite
+Author:Sneha Poojary
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+ Features in This App
 
-Currently, two official plugins are available:
+   Image Uploads:** Share pictures with your followers easily.
+   AI Caption Generator:** Instantly generate fun and expressive captions based on your mood.
+   Tag Friends:** Mention friends using `@username` to connect them to your post.
+   Mood-Based Posts:** Choose your current mood—happy, sad, chill, or excited—and post accordingly.
+   Clean Chat-Style Background:** Enjoy a modern, WhatsApp-style white background for a clean posting experience.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+ ⚠️ Note: This project was built within 2 days for a hackathon. Some features may not be fully functional or stable yet. Thank you for your understanding and support!
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.

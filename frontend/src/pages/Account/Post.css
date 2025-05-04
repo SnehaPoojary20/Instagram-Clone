@@ -1,0 +1,154 @@
+.post-container {
+    height: fit-content;
+    width: 100%;
+    border: 1px solid lightgray;
+    background-color: #fff;
+    margin-top: 20px;
+  }
+  
+  .post-user-info {
+    height: 60px;
+    padding: 5px 10px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid lightgray;
+  }
+  
+  .post-user-info img {
+    width: 38px;
+    height: 38px;
+    border-radius: 100%;
+    margin-left: 10px;
+    border: 1px solid lightgray;
+  }
+  
+  .post-user-info p {
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: 600;
+    margin-left: 10px;
+  }
+  
+  .post-content {
+    width: 100%;
+    display: flex;
+    border-bottom: 1px solid lightgrey;
+  }
+  
+  .post-content img {
+    width: 100%;
+  }
+  
+  .post-cta {
+    width: 90%;
+    margin: auto;
+  }
+  
+  .post-cta-buttons {
+    height: 54px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .post-cta-buttons img {
+    width: 22px;
+    height: 22px;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  
+  .post-like-count p {
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+  
+  .post-description {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  
+  .post-description h5 {
+    font-size: 14px;
+    line-height: 20px;
+    border: none;
+    width: 100%;
+    height: 40px;
+    overflow-y: hidden;
+    word-break: break-word;
+    min-height: 40px;
+    font-weight: 500;
+  }
+  
+  .post-description.more h5 {
+    height: fit-content;
+  }
+  
+  .description-buttons {
+    font-size: 14px;
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+    color: gray;
+  }
+  
+  .description-buttons p {
+    cursor: pointer;
+  }
+  
+  .recent-comment {
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .recent-comment strong {
+    margin-right: 10px;
+  }
+  
+  .comment-input {
+    padding: 10px 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top: 1px solid lightgray;
+  }
+  
+  .comment-input input {
+    flex: 0.9;
+    height: 30px;
+    border: none;
+    margin-right: 10px;
+    outline: none;
+  }
+  
+  .comment-input button {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    color: #18a4f8;
+  }
+  
+  .all-comment-container {
+    padding: 15px;
+  }
+  
+  .post-comment {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+  
+  .post-comment .user-image {
+    margin-right: 20px;
+  }
+  
+  .post-comment .user-image img {
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+  }
+  

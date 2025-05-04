@@ -1,0 +1,78 @@
+.middleBlock {
+    width: 100%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.story {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    overflow-x: auto;
+    white-space: nowrap;
+    padding-left: 20%;
+    padding-bottom: 10px;
+
+    /* Hide scrollbar on all browsers */
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none;  /* Internet Explorer 10+ */
+}
+
+.story::-webkit-scrollbar {
+    display: none; /* Chrome, Safari, Opera */
+}
+
+.story::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 10px;
+}
+.story::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+.perstory {
+    width: 86px;
+    flex: 0 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.status {
+    width: 100%;
+    height: 56px;
+    border-radius: 100%;
+}
+
+.images {
+    border-radius: 100%;
+    width: 66px;
+    height: 66px;
+    padding: 2px;
+    border: 2.5px solid rgb(249, 4, 249);
+}
+
+.profileName {
+    font-size: 10px;
+    color: white;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.feed{
+    padding-top: 5%;
+    padding-left: 20%;
+    padding-right: 0%;
+    height: 650px;
+    width: 850px;
+}
+
+.heart {
+    font-size: 30px;
+    color: red; 
+    margin-top: 10px;  
+  }

@@ -1,0 +1,47 @@
+*{
+    background-color:black;
+    color: white;
+}
+.input{
+    padding-left: 20px;
+}
+.caption{
+    margin-top: 40px;
+    margin-left: 40px;
+}
+
+.tag{
+    margin-top: 40px;
+    margin-left: 40px;
+}
+
+.moods{
+    margin-top: 40px;
+    margin-right: 40px;
+}
+
+.result{
+    margin-top: 40px;
+    margin-left: 40px;
+    background-color:lightblue;
+    color: black;
+    border: 2px solid black;
+}
+
+.result:hover{
+    opacity: 0.8;
+    background-color: greenyellow;
+}
+
+.post{
+    margin-left: 40px;
+    width: 80px;
+    background-color: lightblue;
+    color: black;
+    border: 2px solid black;
+}
+
+.post:hover{
+    opacity: 0.8;
+    background-color: greenyellow;
+}

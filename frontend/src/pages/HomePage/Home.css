@@ -1,0 +1,32 @@
+  * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        
+      }
+      .Home{
+        background-color: black;
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        border: 1px solid;
+        display: flex;
+      }
+      
+      .leftSide{
+        flex: 0.2;
+        flex-direction: column;
+        /* position: fixed; */
+      }
+
+      .middle{
+        flex: 0.5;
+        flex-direction: column;
+        
+      }
+
+      .rightside{
+        flex: 0.3;
+        flex-direction: column;
+
+      }

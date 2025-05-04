@@ -1,0 +1,401 @@
+/* Profile Main Styling */
+.profile-container {
+  display: flex;
+  background-color: #0d0d0d;
+  min-height: 100vh;
+}
+
+.profile-main {
+  margin-left: 250px; /* to adjust for fixed sidebar */
+  padding: 40px;
+  flex: 1;
+  background-color: #121212;
+  color: white;
+  overflow-y: auto;
+}
+
+.profile-user-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.profile-user-info .user-image {
+  border: 2px solid #444;
+  padding: 4px;
+  border-radius: 50%;
+  box-shadow: 0 0 8px rgba(255, 255, 255, 0.1);
+}
+
+.profile-post-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 20px;
+  margin-top: 30px;
+}
+
+/* Button Enhancements */
+.MuiButton-containedPrimary {
+  background-color: #1e88e5 !important;
+  border-radius: 8px !important;
+  padding: 10px 20px !important;
+  text-transform: none !important;
+  font-weight: 600 !important;
+}
+.MuiButton-containedPrimary:hover {
+  background-color: #1565c0 !important;
+}
+
+.create-post-form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Headings */
+.create-post-form h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+/* File input and label */
+.create-post-form label {
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+
+/* Textarea styling */
+.create-post-form textarea {
+  padding: 10px;
+  resize: vertical;
+  min-height: 80px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+/* Input fields */
+.create-post-form input[type="text"],
+.create-post-form select {
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+/* Button styling */
+.create-post-form button {
+  background-color: #1976d2; /* Material-UI blue */
+  color: white;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+}
+
+.create-post-form button:hover {
+  background-color: #115293;
+}
+
+/* Buttons in a row */
+.create-post-form .form-buttons {
+  display: flex;
+  gap: 10px;
+}
+
+
+/* Post Container */
+.create-post-form {
+  background-color: #000;
+  color: white;
+  padding: 30px;
+  border-radius: 12px;
+  max-width: 600px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.create-post-form h2 {
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #333;
+  padding-bottom: 5px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.create-post-form label {
+  font-weight: 500;
+  margin-bottom: 8px;
+}
+
+.create-post-form input[type="text"],
+.create-post-form input[type="file"],
+.create-post-form textarea,
+.create-post-form select {
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #444;
+  background-color: #1c1c1c;
+  color: white;
+  font-size: 14px;
+}
+
+.create-post-form textarea {
+  resize: vertical;
+  min-height: 80px;
+}
+
+.mood-captions {
+  background-color: #1a1a1a;
+  padding: 10px 15px;
+  border-radius: 8px;
+  border: 1px solid #333;
+}
+
+.mood-captions ul {
+  list-style: disc;
+  padding-left: 20px;
+  margin: 5px 0 0 0;
+}
+
+.mood-captions li {
+  margin-bottom: 6px;
+  font-size: 14px;
+}
+
+.form-buttons {
+  display: flex;
+  gap: 15px;
+  justify-content: flex-start;
+  margin-top: 10px;
+}
+
+.create-post-form button {
+  background-color: #1976d2;
+  color: white;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+}
+
+.create-post-form button:hover {
+  background-color: #115293;
+}
+
+.post-container {
+  height: fit-content;
+  width: 100%;
+  border: 1px solid lightgray;
+  background-color: #fff;
+  margin-top: 20px;
+}
+
+.post-user-info {
+  height: 60px;
+  padding: 5px 10px;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid lightgray;
+}
+
+.post-user-info img {
+  width: 38px;
+  height: 38px;
+  border-radius: 100%;
+  margin-left: 10px;
+  border: 1px solid lightgray;
+}
+
+.post-user-info p {
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 600;
+  margin-left: 10px;
+}
+
+.post-content {
+  width: 100%;
+  display: flex;
+  border-bottom: 1px solid lightgrey;
+}
+
+.post-content img {
+  width: 100%;
+}
+
+.post-cta {
+  width: 90%;
+  margin: auto;
+}
+
+.post-cta-buttons {
+  height: 54px;
+  display: flex;
+  align-items: center;
+}
+
+.post-cta-buttons img {
+  width: 22px;
+  height: 22px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.post-like-count p {
+  font-size: 15px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.post-description {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.post-description h5 {
+  font-size: 14px;
+  line-height: 20px;
+  border: none;
+  width: 100%;
+  height: 40px;
+  overflow-y: hidden;
+  word-break: break-word;
+  min-height: 40px;
+  font-weight: 500;
+}
+
+.post-description.more h5 {
+  height: fit-content;
+}
+
+.description-buttons {
+  font-size: 14px;
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0;
+  color: gray;
+}
+
+.description-buttons p {
+  cursor: pointer;
+}
+
+.recent-comment {
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+}
+
+.recent-comment strong {
+  margin-right: 10px;
+}
+
+.comment-input {
+  padding: 10px 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-top: 1px solid lightgray;
+}
+
+.comment-input input {
+  flex: 0.9;
+  height: 30px;
+  border: none;
+  margin-right: 10px;
+  outline: none;
+}
+
+.comment-input button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  font-size: 15px;
+  color: #18a4f8;
+}
+
+.all-comment-container {
+  padding: 15px;
+}
+
+.post-comment {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.post-comment .user-image {
+  margin-right: 20px;
+}
+
+.post-comment .user-image img {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+}
+
+/* Left Sidebar Styling */
+.left {
+  background-color: black;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 250px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  z-index: 1000;
+}
+
+.image2 {
+  padding-top: 5%;
+  padding-left: 6%;
+  height: 80px;
+  width: 170px;
+}
+
+.Sidebar {
+  padding-top: 4%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.features {
+  padding-top: 6.3%;
+  padding-left: 15%;
+  gap: 10px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 10px;
+}
+
+.feature {
+  font-size: 20px;
+  padding-left: 4%;
+  background-color: black;
+  color: white;
+}
+
+.link-style {
+  text-decoration: none;
+}
+
+  
+  

@@ -1,0 +1,108 @@
+/* Common container for login and signup */
+/* .img2{
+    background-color: white;
+} */
+.login-container,
+.signup-container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #000; /* black background */
+}
+
+/* Main section (if needed) */
+.login-main,
+.signup-main {
+}
+
+/* Form styles */
+.login-form,
+.signup-form {
+  background-color: #000; /* black form background */
+  border: 1px solid #333;
+  padding: 20px;
+  min-width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 400px;
+  color: #fff; /* white text */
+}
+
+/* Submit button */
+.login-form button,
+.signup-form button {
+  height: 33px;
+  width: 230px;
+  background-color: #0095f6;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  margin-top: 30px;
+  font-size: 14px;
+  color: #fff;
+  cursor: pointer;
+}
+
+/* Logo container */
+.login-logo,
+.signup-logo {
+  width: 250px;
+  
+}
+
+/* Invert logo color for dark background (optional) */
+.login-logo img,
+.signup-logo img {
+  width: 100%;
+  filter: invert(1); /* makes logo visible on black */
+}
+
+/* Input container */
+.login-inputContainer,
+.signup-inputContainer {
+  height: 25px;
+  width: 250px;
+  margin-top: 20px;
+}
+
+/* Input fields */
+.login-inputContainer input,
+.signup-inputContainer input {
+  height: 100%;
+  width: 100%;
+  background-color: #111; /* dark gray input */
+  border: 1px solid gray;
+  padding: 5px;
+  color: #fff; /* white text */
+}
+
+/* Bottom container for switching login/signup */
+.login-signUpContainer,
+.signup-loginContainer {
+  border: 1px solid #333;
+  padding: 20px;
+  background-color: #000; /* black background */
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff; /* white text */
+}
+
+.login-signUpContainer p,
+.signup-loginContainer p {
+  font-size: 14px;
+}
+
+.login-signUpContainer p span,
+.signup-loginContainer p span {
+  color: #18a4f8;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+  

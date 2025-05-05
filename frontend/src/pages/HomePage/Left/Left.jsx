@@ -6,7 +6,7 @@ import { LuMessageCirclePlus } from "react-icons/lu";
 import { FaRegSquarePlus } from "react-icons/fa6";
 import { MdMenu } from "react-icons/md";
 import { RiCheckboxBlankCircleLine } from "react-icons/ri";
-import { Link } from 'react-router-dom'; // import Link for routing
+import { Link } from 'react-router-dom'; 
 
 const LeftSide = () => {
   return (

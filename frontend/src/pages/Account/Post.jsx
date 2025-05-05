@@ -142,4 +142,4 @@ function Post({ userName, photoURL, caption, imageURL, postID }) {
 
 export default Post;
 
-// Style components like Container, UserInfo, etc., remain as per your CSS or styled-components
+

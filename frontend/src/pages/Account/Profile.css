@@ -9,8 +9,8 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: flex-start; /* Align to the start instead of center */
-  margin-left: 270px; /* Adjust to prevent overlap with the left sidebar */
+  justify-content: flex-start; /* Aligning to the start instead of center */
+  margin-left: 270px; /* Adjusting to  prevent overlap with the left sidebar */
   padding: 40px;
   flex: 1;
   background-color: #121212;
@@ -93,7 +93,7 @@
   margin-top: 20px;
   padding: 12px 24px;
   font-size: 18px;
-  background-color: #ff5733; /* Adjust color */
+  background-color: #ff5733; 
   color: white;
   border: none;
   border-radius: 8px;

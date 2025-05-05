@@ -1,7 +1,4 @@
-/* Common container for login and signup */
-/* .img2{
-    background-color: white;
-} */
+
 .login-container,
 .signup-container {
   width: 100vw;
@@ -9,10 +6,10 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #000; /* black background */
+  background-color: #000; 
 }
 
-/* Main section (if needed) */
+
 .login-main,
 .signup-main {
 }
@@ -20,7 +17,7 @@
 /* Form styles */
 .login-form,
 .signup-form {
-  background-color: #000; /* black form background */
+  background-color: #000; 
   border: 1px solid #333;
   padding: 20px;
   min-width: 300px;
@@ -29,7 +26,7 @@
   align-items: center;
   justify-content: center;
   height: 400px;
-  color: #fff; /* white text */
+  color: #fff; 
 }
 
 /* Submit button */
@@ -54,7 +51,7 @@
   
 }
 
-/* Invert logo color for dark background (optional) */
+
 .login-logo img,
 .signup-logo img {
   width: 100%;
@@ -74,10 +71,10 @@
 .signup-inputContainer input {
   height: 100%;
   width: 100%;
-  background-color: #111; /* dark gray input */
+  background-color: #111; 
   border: 1px solid gray;
   padding: 5px;
-  color: #fff; /* white text */
+  color: #fff; 
 }
 
 /* Bottom container for switching login/signup */
@@ -85,12 +82,12 @@
 .signup-loginContainer {
   border: 1px solid #333;
   padding: 20px;
-  background-color: #000; /* black background */
+  background-color: #000; 
   margin-top: 20px;
   display: flex;
   align-items: center;
   justify-content: center;
-  color: #fff; /* white text */
+  color: #fff; 
 }
 
 .login-signUpContainer p,
